@@ -17,6 +17,11 @@ a {
     display: block;
 }
 
+header {
+    padding-top: 36px;
+    box-sizing: border-box;
+}
+
 .clearfix::after {
     content: " ";
     display: table;
@@ -24,6 +29,8 @@ a {
 }
 
 .logo {
+    text-decoration: none;
+    color: #000000;
     float: left;
     font-family: "Roboto", Arial, Helvetica, sans-serif;
     font-weight: 300;
@@ -86,6 +93,8 @@ a {
 }
 
 .title-featured-products {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 900;
     font-size: 48px;
     line-height: 58px;
     color: #515151;
@@ -179,7 +188,14 @@ a {
     color: #ffffff;
 }
 
+.news-section {
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
 .title-latest-news {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    font-weight: 900;
     font-size: 48px;
     line-height: 58px;
     color: #515151;
@@ -247,24 +263,20 @@ a {
     padding-bottom: 12px;
 }
 
-.read-more {
+.internal-link {
     width: 159px;
     height: 50px;
     border-radius: 4px;
     background-color: #4ec6ab;
     cursor: pointer;
-    margin: 0px;
-}
-
-.internal-link {
     text-decoration: none;
     font-family: "Open Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 300;
-    line-height: 19px;
+    line-height: 18px;
     color: #ffffff;
     text-align: center;
-    display: block;
-    padding-top: 14px;
-    margin: 0px auto;
+    margin: 0px;
+    padding-top: 15px;
+    box-sizing: border-box;
 }
